@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">সৈকতে বাংলাদেশ</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="item202">সমুদ্র সৈকত সমূহ</string>
+    
+    <string name="item209">কক্সবাজার</string>
+    <string name="item210">ইনানি বীচ</string>
+    <string name="item211">হিমছড়ি</string>
+    
+    <string name="item214">সোনাদিয়া</string>
+    <string name="item215">টেকনাফ</string>
+    <string name="item216">সেন্টমার্টিন</string>
+    <string name="item217">কুয়াকাটা</string>
+    <string name="item218">পতেঙ্গা</string>
+   
+    
+    <string name="decision">আপনি কি ফোন কল করতে যাচ্ছেন ???</string>
+   <string name="positive_button">হ্যাঁ</string>
+   <string name="negative_button">না</string>
+    
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.creation.anindya.seabeachesofbd"
+    android:installLocation="preferExternal">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_main_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+
+
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".beaches_activity" android:screenOrientation="portrait"/>
+        <activity android:name=".thanks"  android:screenOrientation="portrait" />
+        <activity android:name=".b1" />
+        <activity android:name=".b2" />
+        <activity android:name=".b3" />
+
+        <activity android:name=".b6" />
+        <activity android:name=".b7" />
+        <activity android:name=".b8" />
+        <activity android:name=".b9" />
+        <activity android:name=".b10" />
+
+        <activity android:name=".MainActivity" />
+
+    </application>
+
+</manifest>

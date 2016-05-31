@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    
+    
+    
+    <item type="id" name="linearLayout_admob1">false</item>
+    <item type="id" name="ScrollView01">false</item>
+    <item type="id" name="TextView00">true</item>
+   
+    <item type="id" name="BtnCall">true</item>
+   
+    <item type="id" name="riitem1">false</item>
+    <item type="id" name="rice1_1">false</item>
+    <item type="id" name="dec1">false</item>
+    <item type="id" name="rice1_2">false</item>
+    <item type="id" name="dec2">false</item>
+    <item type="id" name="textView0">false</item>
+   
+    <item type="id" name="rimenu1">false</item>
+    <item type="id" name="rimenu2">false</item>
+    <item type="id" name="rimenu3">false</item>
+    <item type="id" name="rimenu4">false</item>
+    <item type="id" name="rimenu5">false</item>
+    <item type="id" name="rimenu6">false</item>
+    <item type="id" name="rimenu7">false</item>
+    <item type="id" name="rimenu8">false</item>
+    <item type="id" name="rimenu9">false</item>
+    <item type="id" name="rimenu10">false</item>
+    <item type="id" name="rimenu11">false</item>
+    <item type="id" name="rimenu12">false</item>
+    <item type="id" name="rimenu13">false</item>
+    <item type="id" name="rimenu14">false</item>
+    <item type="id" name="rimenu15">false</item>
+    <item type="id" name="rimenu16">false</item>
+    <item type="id" name="rimenu17">false</item>
+    <item type="id" name="rimenu18">false</item>
+    <item type="id" name="rice1_3">false</item>
+    <item type="id" name="dec3">false</item>
+    <item type="id" name="rice1_4">false</item>
+    <item type="id" name="dec4">false</item>
+   
+    <item type="id" name="imageBtn1"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</resources>

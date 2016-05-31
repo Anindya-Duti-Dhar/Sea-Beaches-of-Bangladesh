@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/splash_main" >
+
+    <TextView
+        android:id="@id/dec1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/dec2"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_horizontal"
+        android:padding="2.0sp"
+        android:text="বাংলাদেশ"
+        android:textColor="#D00A00"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@id/dec2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="48dp"
+        android:gravity="center_horizontal"
+        android:padding="2.0sp"
+        android:text="সৈকতে সৌন্দর্যের লীলাভূমি"
+        android:textColor="#D00A00"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <ScrollView android:id="@+id/ScrollView01" android:layout_width="match_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/all_back"
+            android:orientation="vertical" >
+
+            
+             <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="55dp"
+                android:text="অ্যাপ উন্নয়নেঃ"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                 />
+            
+            
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/anindya_icon" />
+            
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="05dp"
+                android:text="অনিন্দ্য দ্যুতি ধর"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="বিএসসি ইন কম্পিউটার সায়েন্স অ্যান্ড ইঞ্জিনিয়ারিং"
+                android:textColor="#ffffffff"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                 />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="পটুয়াখালী বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়"
+                android:textColor="#FBDE8C"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="ই-মেইলঃ anindyadutidhar@yahoo.com"
+                android:textColor="#FBDE8C"
+                android:textStyle="bold"
+                 />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="পটুয়াখালী, বরিশাল, বাংলাদেশ"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                 />
+
+        </LinearLayout>
+
+    </ScrollView>
+    <LinearLayout android:layout_gravity="bottom" 
+        android:orientation="vertical" 
+        android:background="#ff222222" 
+        android:paddingTop="5.0sp" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="ধন্যবাদ"
+            android:textSize="16.0sp" 
+            android:background="@drawable/frame"
+            android:textColor="#ffffffff"
+           android:textStyle="bold"
+            
+            />
+
+    </LinearLayout>
+</LinearLayout>

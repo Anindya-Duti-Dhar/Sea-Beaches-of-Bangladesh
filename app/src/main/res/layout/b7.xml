@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/linearLayout_admob1" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg_item1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@id/riitem1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:drawablePadding="4.0sp"
+            android:gravity="center_vertical"
+            android:padding="4.0sp"
+            android:text="@string/item215"
+            android:textColor="#ffffffff"
+            android:textSize="20.0sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+    </LinearLayout>
+    <View android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="1.0px" />
+    <ScrollView android:id="@id/ScrollView01" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+          >
+
+            <TextView
+                android:id="@id/rice1_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnbg2"
+                android:drawablePadding="8.0sp"
+                android:gravity="center_vertical"
+                android:paddingBottom="2.0sp"
+                android:paddingLeft="8.0sp"
+                android:paddingTop="10.0sp"
+                android:text="আলোকচিত্র"
+                android:textColor="#ff222222"
+                android:textSize="22.0sp"
+                android:textStyle="bold" />
+
+            <View android:background="#ffff0000" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_marginLeft="8.0dip" android:layout_marginRight="40.0dip" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="20sp"
+                android:src="@drawable/teknaf" />
+
+                       <TextView
+                android:id="@id/rice1_2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnbg2"
+                android:drawablePadding="8.0sp"
+                android:gravity="center_vertical"
+                android:paddingBottom="2.0sp"
+                android:paddingLeft="8.0sp"
+                android:paddingTop="10.0sp"
+                android:text="এক নজরে"
+                android:textColor="#ff222222"
+                android:textSize="22.0sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2.0px"
+                android:layout_marginLeft="8.0dip"
+                android:layout_marginRight="40.0dip"
+                android:background="#ffff0000" />
+
+            <TextView
+                android:id="@id/dec2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0sp"
+                android:layout_marginTop="10.0sp"
+                android:padding="2.0sp"
+                android:text="Java code not working2"
+                android:textColor="#ff333333"
+                android:textSize="16.0sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:layout_marginBottom="46.0dip"
+                android:layout_marginLeft="6.0dip"
+                android:layout_marginRight="6.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="#ffbbbbbb" />
+
+            <TextView
+                android:id="@id/rice1_3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnbg2"
+                android:drawablePadding="8.0sp"
+                android:gravity="center_vertical"
+                android:paddingBottom="2.0sp"
+                android:paddingLeft="8.0sp"
+                android:paddingTop="10.0sp"
+                android:text="যোগাযোগ"
+                android:textColor="#ff222222"
+                android:textSize="22.0sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2.0px"
+                android:layout_marginLeft="8.0dip"
+                android:layout_marginRight="40.0dip"
+                android:background="#ffff0000" />
+
+            <TextView
+                android:id="@id/dec3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0sp"
+                android:layout_marginTop="10.0sp"
+                android:padding="2.0sp"
+                android:text="Java code not working2"
+                android:textColor="#ff333333"
+                android:textSize="16.0sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:layout_marginBottom="46.0dip"
+                android:layout_marginLeft="6.0dip"
+                android:layout_marginRight="6.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="#ffbbbbbb" />
+
+            <TextView
+                android:id="@id/rice1_4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btnbg2"
+                android:drawablePadding="8.0sp"
+                android:gravity="center_vertical"
+                android:paddingBottom="2.0sp"
+                android:paddingLeft="8.0sp"
+                android:paddingTop="10.0sp"
+                android:text="আবাসন"
+                android:textColor="#ff222222"
+                android:textSize="22.0sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2.0px"
+                android:layout_marginLeft="8.0dip"
+                android:layout_marginRight="40.0dip"
+                android:background="#ffff0000" />
+
+            <TextView
+                android:id="@id/dec4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0sp"
+                android:layout_marginTop="10.0sp"
+                android:padding="2.0sp"
+                android:text="Java code not working2"
+                android:textColor="#ff333333"
+                android:textSize="16.0sp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:layout_marginBottom="10.0dip"
+                android:layout_marginLeft="6.0dip"
+                android:layout_marginRight="6.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="#ffbbbbbb" />
+            
+ <Button
+        android:id="@id/BtnCall"
+        style="?android:attr/buttonStyleSmall"
+        android:background="#7133CC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="০১৭১২৪৪৯৫৫৩"
+        android:textColor="#ffffffff"
+                android:textSize="16.0sp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0px"
+                android:layout_marginBottom="46.0dip"
+                android:layout_marginLeft="6.0dip"
+                android:layout_marginRight="6.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="#ffbbbbbb" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
